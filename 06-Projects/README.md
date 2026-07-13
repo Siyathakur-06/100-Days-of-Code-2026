@@ -12,3 +12,4 @@ This folder contains all my personal and academic projects.
 
 ## Goal
 Build projects that solve real-world problems.
+
