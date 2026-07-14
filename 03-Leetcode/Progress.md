@@ -14,14 +14,14 @@ This file tracks my daily LeetCode journey towards becoming an AI/ML Engineer.
 
 | # | Problem | Topic | Difficulty | Date | Status |
 |---|---------|-------|------------|------|--------|
-| 1 | 1929. Concatenation of Array | Arrays | Easy | 14-Jul-2026 | ⏳ |
+| 1 | 1929. Concatenation of Array | Arrays | Easy | 14-Jul-2026 | Done |
 | 2 | 1480. Running Sum of 1D Array | Arrays | Easy | 14-Jul-2026 | ⏳ |
 
 ---
 
 ## 🏆 Statistics
 
-- Easy: **0**
+- Easy: **1**
 - Medium: **0**
 - Hard: **0**
 - Total Solved: **0**
