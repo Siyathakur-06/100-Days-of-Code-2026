@@ -21,7 +21,7 @@
 
 ## Problems Solved
 
-- [Done] 1929 Concatenation of Array
-- [Done] 217 Contains Duplicate
+- 1929 Concatenation of Array
+- 217 Contains Duplicate
 - [ ] 26 Remove Duplicates
 - [ ] 88 Merge Sorted Array
