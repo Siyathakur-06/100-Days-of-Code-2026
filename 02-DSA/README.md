@@ -18,6 +18,8 @@ This folder contains my DSA practice in Python.
 - Binary Search
 - Graphs
 - Dynamic Programming
+- Recursion
+
 
 ## Target
 - 300+ LeetCode Problems before placements
