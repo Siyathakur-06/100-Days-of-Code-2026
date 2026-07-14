@@ -24,7 +24,7 @@ This file tracks my daily LeetCode journey towards becoming an AI/ML Engineer.
 - Easy: **2**
 - Medium: **0**
 - Hard: **0**
-- Total Solved: **0**
+- Total Solved: **2**
 
 ---
 
