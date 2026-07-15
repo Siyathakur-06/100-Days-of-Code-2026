@@ -5,7 +5,7 @@
 #You can create your own modules or use built-in modules provided by Python.
 
 # Two Types:
-1. BUilt_in Modules: No Need to install 
+1. Built_in Modules: No Need to install 
 2. External Modules: Need to be installed 
 
 # THE PIP COMMAND(a package manager)
