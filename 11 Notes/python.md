@@ -1,20 +1,20 @@
-[A] #MODULES & PIP
+# [A] #MODULES & PIP
 
-# Modules are files containing Python code. 
+#Modules are files containing Python code. 
 #They can define functions, classes, and variables that you can reuse in your programs. 
 #You can create your own modules or use built-in modules provided by Python.
 
-# Two Types:
+#Two Types:
 1. Built_in Modules: No Need to install 
 2. External Modules: Need to be installed 
 
-# THE PIP COMMAND(a package manager)
+#THE PIP COMMAND(a package manager)
 
 import pandas 
 # Read and work with a file named 'words.csv'
 pandas.read_csv('words.csv')
 
-# Comments,Escape Sequences & Print statements
+#Comments,Escape Sequences & Print statements
 
 1. Comments:Two Types
 
@@ -35,17 +35,17 @@ Eg: print("Hey I m a \"good girl\" \nand this viewer is also a gud boy or girl")
 O\P:Good girl will be displayed in double quotes.
 
 3. Separators : 
-# default separator : Space
+#default separator : Space
 
 eg: print("Hey",6,7,sep="~",end="009\n")
 print("Siya")
 O/P: Hey~6~7009
 Siya
 
-# file: An object with a write method, Default is sys.stdout(optional)
+#file: An object with a write method, Default is sys.stdout(optional)
 
 
-[B] Variables & data types
+# [B] Variables & data types
 
  Variable is like a container that holds data. Creating a varaible is like creating a plceholder in memory and assigning some value. 
 
@@ -57,18 +57,18 @@ Siya
 
 Data Type specifies the type of value a variable holds. Diiferent types:
 
-# 1. Numeric data: 
+ 1. Numeric data: 
 int: 3,-4 ,
 float: 7.45,-9.0 ,
 complex: 6 + 2i
 
-# 2.Text data :
+2.Text data :
 str : "Hello world"
 
-# 3.Boolean data
+3.Boolean data
 Containes true or false
 
-# 4. Sequenced data
+4. Sequenced data
 list : Ordered collection of data with elements separated by a comma & enclosed within square brackets. Mutable and can be modified after creation.
 
 eg: list1 = [9,2.3,[-4,5], ["apple", "banana"]]
@@ -79,13 +79,30 @@ Tuple: Ordered collection of data with elements separated by a comma and enclose
 eg: tuple1 = (("parrot","sparrow")("lion","tiger"))
 print(tuple1)
 
-
-# 5. Mapped data
+5. Mapped data
 dict : Collection of data containing a  key value pair. {} are used. 
 
 eg: dict1 = {"name":"sakshi" , "Age":20,"CanVote":True}
 print(dict1)
 
-[C] Operators
+# [C] Operators
 
 Add , Subtract , Multiply , Exponential(5**3),Modulus(15%7),Floor Division(15/7)
+
+# [D] TYPECASTING
+The conversion of 1 data type into the other data type is called typecasting/type conversion.
+
+(1) Explicit Conversion
+Conversion of 1 data type to another done manually as per the requirement .
+Can be done using int(), float(),hex(),oct(),str(),etc.
+
+(2) Implicit Conversion
+Data types in python have diff levels i.e lower and higher order, while performing any operations , one of the variables data type will be changed to higher data type. Acc to the level , one data type is converted to other by python automatically . This is called Implicit Typecasting. 
+converts smaller data type to higher to prevent data loss.
+
+# [E] User input 
+
+
+
+
+
