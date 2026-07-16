@@ -85,3 +85,7 @@ dict : Collection of data containing a  key value pair. {} are used.
 
 eg: dict1 = {"name":"sakshi" , "Age":20,"CanVote":True}
 print(dict1)
+
+[C] Operators
+
+Add , Subtract , Multiply , Exponential(5**3),Modulus(15%7),Floor Division(15/7)
