@@ -101,7 +101,14 @@ Data types in python have diff levels i.e lower and higher order, while performi
 converts smaller data type to higher to prevent data loss.
 
 # [E] User input 
+We can take user input directly by using input() function. It gives a return value as string/character , & we pass tht into a variable.
 
+Syntax : variable=input()
+(Only returns in string , later typecasting neededto convert into another datatype)
+
+Eg: variable = int(input())
+    varaible = float(input())
+    
 
 
 
