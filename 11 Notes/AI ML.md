@@ -16,4 +16,6 @@
     ├── 13_CNN.md
     ├── 14_RNN.md
     ├── 15_Transformers.md
-    └── 16_ML_Interview_Questions.md
+    └
+
+-> NLP NOOTBOOK 1,2,3 (sem5) Keep handy for interviews.
