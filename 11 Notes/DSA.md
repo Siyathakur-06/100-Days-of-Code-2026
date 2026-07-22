@@ -41,15 +41,15 @@ Types of Analysis:       notation
 
 Determning Time Complexity:
 1) Constant Time Complexity: 
-x = 5 -> 1 unit
-print(x) -> 1 unit
+x = 5            1 unit
+print(x)         1 unit
 if (x==5):
   print("Hello")
   else:
   print("Welcome")
 
 No loops , no recursion , it will take constant unit , Size of input same .
- 1 + 1 = 2 , where DF : 1
+1 + 1 = 2 , where DF : 1
 So, TC : O(1)
 
 2) Linear Time Complexity:
@@ -57,30 +57,29 @@ y = 2x + 10 = O(n)
 
  Eg 1:
  x = 5 
-print (x)               O(1)
-for i in range (0,x):    +
-print(i)                O(n) 
+print (x)                   O(1)
+for i in range (0,x):         +
+print(i)                     O(n) 
 
 So , TC : O(n) 
 
 
 Eg 2:
 n = 5            
-print(n)                 O(1)
-for i in range(0,n):      +
-print(i)                 O(n)
-for j in range(0,n):      +
-print(j*j)               O(n)
-for k in range(o,n/2)     +
-print("hello")           O(n/2)
+print(n)                        O(1)
+for i in range(0,n):             +
+print(i)                        O(n)
+for j in range(0,n):             +
+print(j*j)                      O(n)
+for k in range(o,n/2)             +
+print("hello")                  O(n/2)
 
 So, TC: 1 + n + n + n/2 = O(n) 
 
 Why addition?
 Coz loops are 1 after another.
 
-
-3) Quadratic Time Complexity:
+ 3) Quadratic Time Complexity:
  2n^2 + 3n + 5 -> O(n^2)
 
 Eg 1:
@@ -93,7 +92,7 @@ for j in range (0,m):    O(n) 10 times
 print("hello")           50 times(5*10)
 
 for k in range (0,n):
-print("welcome");           O(n)
+print("welcome");            O(n)
 
 
 So,TC : 1 + (n*n) + (n) = O(n^2)
@@ -129,7 +128,7 @@ else :
 Here , most DF n^3 , So TC : O(n^3)
 
 
-5) Logarithmic Time Complexity:
+ 5) Logarithmic Time Complexity:
 Eg 1:
  n=10 
  while (n>=1):
@@ -149,6 +148,7 @@ Eg 1:
   log n = log 2^k
   log n = klog2
   k = logn\log2
+
   So,TC: O(logn) 
 
   Note: If loop is getting divided by 2,3,4 , TC: log n 
